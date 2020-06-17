@@ -1,0 +1,28 @@
+@import '../App.scss';
+
+.body1 {
+  background-color: $black;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text1 {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  font-size: 80px;
+  color: $white;
+  font-family: cursive;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px $white, 0 0 20px $white, 0 0 30px $darkpink,
+      0 0 40px $darkpink, 0 0 50px $darkpink, 0 0 60px $darkpink, 0 0 70px $darkpink;
+  }
+  to {
+    text-shadow: 0 0 20px $white, 0 0 30px $lightpink, 0 0 40px $lightpink,
+      0 0 50px $lightpink, 0 0 60px $lightpink, 0 0 70px $lightpink, 0 0 80px $lightpink;
+  }
+}

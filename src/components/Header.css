@@ -1,0 +1,24 @@
+.searchIcon {
+  margin-left: -30px;
+}
+.searchInput {
+  padding-right: 30px;
+}
+.nav-link {
+  cursor: pointer;
+}
+.stickyheader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.active2{
+  color:palevioletred !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: palevioletred;
+}
